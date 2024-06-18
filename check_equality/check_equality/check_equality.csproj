@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F437B6C9-9B35-4D2B-BECB-B38F15D3B064}</ProjectGuid>
+    <ProjectGuid>{7214C706-B913-49BB-94A9-E06C6BBFC346}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>check_equality</RootNamespace>
     <AssemblyName>check_equality</AssemblyName>

@@ -1,35 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace checkequality
+
+namespace space
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            
-                Console.WriteLine("enter first integer: ");
-                int num1 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("enter second integer:");
-                int num2 = Convert.ToInt32(Console.ReadLine());
-                if (num1 == num2)
-                {
-                    Console.WriteLine("the integers are equal.");
-                    Console.ReadLine();
-                }
-                else
-                {
-                    Console.WriteLine("the integers are not equal.");
-                    Console.ReadLine();
-                }
-            
+            Console.WriteLine("enter a digit: ");
+            string input = Console.ReadLine();
+
+            //Displaying the number four times with spaces in between
+            Console.WriteLine($"{input} {input} {input} {input}");
+
+            //Displaying the number four times without spaces
+            Console.WriteLine($"{input}{input}{input}{input}");
+
+            //Repeating the display
+            Console.WriteLine($"{input} {input} {input} {input}");
+            Console.WriteLine($"{input}{input}{input}{input}");
+            Console.ReadLine();
         }
-
     }
-
 }
-    
-

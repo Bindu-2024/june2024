@@ -1,7 +1,0 @@
-C:\dotnet_training\check_equality\check_equality\obj\Debug\check_equality.csproj.AssemblyReference.cache
-C:\dotnet_training\check_equality\check_equality\obj\Debug\check_equality.csproj.CoreCompileInputs.cache
-C:\dotnet_training\check_equality\check_equality\bin\Debug\check_equality.exe.config
-C:\dotnet_training\check_equality\check_equality\bin\Debug\check_equality.exe
-C:\dotnet_training\check_equality\check_equality\bin\Debug\check_equality.pdb
-C:\dotnet_training\check_equality\check_equality\obj\Debug\check_equality.exe
-C:\dotnet_training\check_equality\check_equality\obj\Debug\check_equality.pdb

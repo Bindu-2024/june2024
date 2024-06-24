@@ -1,0 +1,6 @@
+C:\june2024\csharp\assignments\assignment3\assignment3\assignment3\bin\Debug\assignment3.exe.config
+C:\june2024\csharp\assignments\assignment3\assignment3\assignment3\bin\Debug\assignment3.exe
+C:\june2024\csharp\assignments\assignment3\assignment3\assignment3\bin\Debug\assignment3.pdb
+C:\june2024\csharp\assignments\assignment3\assignment3\assignment3\obj\Debug\assignment3.csproj.CoreCompileInputs.cache
+C:\june2024\csharp\assignments\assignment3\assignment3\assignment3\obj\Debug\assignment3.exe
+C:\june2024\csharp\assignments\assignment3\assignment3\assignment3\obj\Debug\assignment3.pdb

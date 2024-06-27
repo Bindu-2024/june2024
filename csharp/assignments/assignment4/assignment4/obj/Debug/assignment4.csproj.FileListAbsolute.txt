@@ -1,0 +1,7 @@
+C:\june2024\csharp\assignments\assignment4\assignment4\bin\Debug\assignment4.exe.config
+C:\june2024\csharp\assignments\assignment4\assignment4\bin\Debug\assignment4.exe
+C:\june2024\csharp\assignments\assignment4\assignment4\bin\Debug\assignment4.pdb
+C:\june2024\csharp\assignments\assignment4\assignment4\obj\Debug\assignment4.csproj.AssemblyReference.cache
+C:\june2024\csharp\assignments\assignment4\assignment4\obj\Debug\assignment4.csproj.CoreCompileInputs.cache
+C:\june2024\csharp\assignments\assignment4\assignment4\obj\Debug\assignment4.exe
+C:\june2024\csharp\assignments\assignment4\assignment4\obj\Debug\assignment4.pdb

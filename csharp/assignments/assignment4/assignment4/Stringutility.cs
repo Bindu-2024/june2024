@@ -35,7 +35,7 @@ namespace assignment4
             int count = Stringutility.CountOccurrences(inputString, targetChar);
             Console.WriteLine("Number of occurrences of "+targetChar+" in "+inputString+": "+count);
             Console.ReadLine();
-
+                             
         }
     }
 }

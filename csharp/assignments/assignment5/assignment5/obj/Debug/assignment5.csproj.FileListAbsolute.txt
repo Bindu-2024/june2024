@@ -1,0 +1,7 @@
+C:\june2024\csharp\assignments\assignment5\assignment5\bin\Debug\assignment5.exe.config
+C:\june2024\csharp\assignments\assignment5\assignment5\bin\Debug\assignment5.exe
+C:\june2024\csharp\assignments\assignment5\assignment5\bin\Debug\assignment5.pdb
+C:\june2024\csharp\assignments\assignment5\assignment5\obj\Debug\assignment5.csproj.AssemblyReference.cache
+C:\june2024\csharp\assignments\assignment5\assignment5\obj\Debug\assignment5.csproj.CoreCompileInputs.cache
+C:\june2024\csharp\assignments\assignment5\assignment5\obj\Debug\assignment5.exe
+C:\june2024\csharp\assignments\assignment5\assignment5\obj\Debug\assignment5.pdb

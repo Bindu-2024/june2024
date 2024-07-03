@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>cc3.Test</StartupObject>
+    <StartupObject>cc3.cricket</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

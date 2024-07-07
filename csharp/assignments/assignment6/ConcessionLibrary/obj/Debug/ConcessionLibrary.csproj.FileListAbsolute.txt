@@ -1,0 +1,5 @@
+C:\june2024\csharp\assignments\assignment6\ConcessionLibrary\bin\Debug\ConcessionLibrary.dll
+C:\june2024\csharp\assignments\assignment6\ConcessionLibrary\bin\Debug\ConcessionLibrary.pdb
+C:\june2024\csharp\assignments\assignment6\ConcessionLibrary\obj\Debug\ConcessionLibrary.csproj.CoreCompileInputs.cache
+C:\june2024\csharp\assignments\assignment6\ConcessionLibrary\obj\Debug\ConcessionLibrary.dll
+C:\june2024\csharp\assignments\assignment6\ConcessionLibrary\obj\Debug\ConcessionLibrary.pdb

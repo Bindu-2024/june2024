@@ -1,0 +1,10 @@
+C:\june2024\csharp\assignments\assignment6\Concession_Library\bin\Debug\Concession_Library.exe.config
+C:\june2024\csharp\assignments\assignment6\Concession_Library\bin\Debug\Concession_Library.exe
+C:\june2024\csharp\assignments\assignment6\Concession_Library\bin\Debug\Concession_Library.pdb
+C:\june2024\csharp\assignments\assignment6\Concession_Library\bin\Debug\ConcessionLibrary.dll
+C:\june2024\csharp\assignments\assignment6\Concession_Library\bin\Debug\ConcessionLibrary.pdb
+C:\june2024\csharp\assignments\assignment6\Concession_Library\obj\Debug\Concession_Library.csproj.AssemblyReference.cache
+C:\june2024\csharp\assignments\assignment6\Concession_Library\obj\Debug\Concession_Library.csproj.CoreCompileInputs.cache
+C:\june2024\csharp\assignments\assignment6\Concession_Library\obj\Debug\Concession_Library.csproj.CopyComplete
+C:\june2024\csharp\assignments\assignment6\Concession_Library\obj\Debug\Concession_Library.exe
+C:\june2024\csharp\assignments\assignment6\Concession_Library\obj\Debug\Concession_Library.pdb

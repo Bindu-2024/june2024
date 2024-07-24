@@ -1,0 +1,29 @@
+--assesment-2
+----------------
+use assesments
+
+create database Employeemanagement;
+
+use Employeemanagement
+
+--Table creation
+drop table Employee_Details
+
+create table Employee_Details
+(
+   Empno int primary key identity(1,1),
+   EmpName varchar(50) not null,
+   Empsal numeric(10,2) check(Empsal >= 25000),
+   Emptype char(1) check(Emptype in ('F','p'))
+);
+
+--creating stored procedure
+create or alter procedure AddEmployee (@EmpName varchar(50),  @Empsal numeric(10,2), @Emptype char(1))
+                                      
+as
+begin
+   insert into Employee_Details(EmpName,Empsal,Emptype) values (@EmpName,@Empsal,@Emptype);
+end;
+
+--check the procedure
+exec AddEmployee @EmpName = 'bindu', @Empsal = 40000, @Emptype = 'F';

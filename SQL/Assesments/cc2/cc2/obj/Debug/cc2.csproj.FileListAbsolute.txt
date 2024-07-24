@@ -1,0 +1,7 @@
+C:\june2024\SQL\Assesments\cc2\cc2\bin\Debug\cc2.exe.config
+C:\june2024\SQL\Assesments\cc2\cc2\bin\Debug\cc2.exe
+C:\june2024\SQL\Assesments\cc2\cc2\bin\Debug\cc2.pdb
+C:\june2024\SQL\Assesments\cc2\cc2\obj\Debug\cc2.csproj.AssemblyReference.cache
+C:\june2024\SQL\Assesments\cc2\cc2\obj\Debug\cc2.csproj.CoreCompileInputs.cache
+C:\june2024\SQL\Assesments\cc2\cc2\obj\Debug\cc2.exe
+C:\june2024\SQL\Assesments\cc2\cc2\obj\Debug\cc2.pdb

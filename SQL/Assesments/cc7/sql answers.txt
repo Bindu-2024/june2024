@@ -1,0 +1,121 @@
+--Coding Test-7
+---------------------
+
+create table Books
+(
+  id int primary key,
+  title varchar(50),
+  author varchar(50),
+  isbn varchar(20),
+  published_date Datetime
+);
+insert into Books values (1,'My First SQL book','Mary Parker','981483029127','2012-02-22 12:08:17'),
+                         (2,'My Second SQL book','John Mayer','857300923713','1972-07-03 09:22:45'),
+						 (3,'My Third SQL book','Cary Flint','523120967812','2015-10-18 14:05:44');
+select * from Books;
+
+drop table Reviews
+create table Reviews
+( 
+  id int primary key,
+  book_id int,
+  reviewer_name varchar(50),
+  content varchar(50),
+  rating int,
+  published_date Datetime,
+  
+);
+insert into Reviews values(1,1,'John Smith','My first review',4,'2017-12-10 05:50:11.1'),
+                          (2,2,'Jhon Smith','My second review',5,'2017-10-13 15:05:12.6'),
+						  (3,2,'Alice Walker','Another review',1,'2017-10-22 23:47:10');
+select * from Reviews
+
+--1.
+select * from Books where author like '%er';
+
+--2.
+select b.title,b.author,r.reviewer_name from Books b join Reviews r on b.id = r.book_id;
+
+--3.
+select reviewer_name from Reviews where book_id > 1;
+
+--4.
+create table Customer
+(
+   id int primary key,
+   name varchar(20),
+   age int,
+   addres varchar(20),
+   salary float
+);
+insert into Customer values (1,'Ramesh',32,'Ahmedabad',2000.00),
+                            (2,'khilan',25,'Delhi',1500.00),
+							(3,'Kaushik',23,'Kota',2000.00),
+							(4,'Chaitali',25,'Mumbai',6500.00),
+							(5,'Hardik',27,'Bhopal',8500.00),
+							(6,'Komal',22,'Mp',4500.00),
+							(7,'Muffy',24,'Indore',10000.00);
+select * from Customer
+--4.
+select name from Customer where addres like '%o%';
+
+--5.
+drop table Orders
+create table Orders
+(
+  oid int primary key,
+  [Date] datetime,
+  customer_Id int,
+  amount int,
+);
+insert into Orders values (102,'2009-10-08',3,3000),
+                          (100,'2009-10-08',3,1500),
+						  (101,'2009-11-20',2,1560),
+						  (103,'2008-05-20',4,2060);
+select * from Orders
+--5.
+select [Date], count(customer_id) as total_customers from Orders
+group by [Date];
+
+--6.
+create table Employee
+( 
+   id int primary key,
+   name varchar(20),
+   age int,
+   addres varchar(20),
+   salary float
+);
+insert into Employee values (1,'Ramesh',32,'Ahmedabad',2000.00),
+                            (2,'khilan',25,'Delhi',1500.00),
+							(3,'Kaushik',23,'Kota',2000.00),
+							(4,'Chaitali',25,'Mumbai',6500.00),
+							(5,'Hardik',27,'Bhopal',8500.00),
+							(6,'Komal',22,'Mp',null),
+							(7,'Muffy',24,'Indore',null);
+select * from Employee
+--6.
+select lower(name) from Employee where salary is null;
+
+--7.
+create table student_details
+(
+  register_no int primary key,
+  name varchar(20),
+  age int,
+  qualification varchar(20),
+  mobile_no varchar(20),
+  mail_id varchar(30),
+  loc varchar(20),
+  gender varchar(10)
+);
+insert into student_details values (2,'sai',22,'B.E','9952836777','sai@gmail.com','chennai','M'),
+                                   (3,'kumar',20,'BSC','7890125648','kumar@gmail.com','madhurai','M'),
+								   (4,'selvi',22,'B.Tech','8904567342','selvi@gmail.com','selam','F'),
+								   (5,'nisha',25,'M.E','789034672310','nisha@gmail.com','theni','F'),
+								   (6,'sai saran',21,'B.A','7890345678','saran@gmail.com','madhurai','F'),
+								   (7,'tom',23,'BCA','8901234675','tom@gmail.com','pune','M');
+select * from student_details
+--7.
+select gender,count(*) as total from student_details
+group by gender;

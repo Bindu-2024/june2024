@@ -1,0 +1,7 @@
+C:\Users\bindus\Desktop\proj\proj\bin\Debug\proj.exe.config
+C:\Users\bindus\Desktop\proj\proj\bin\Debug\proj.exe
+C:\Users\bindus\Desktop\proj\proj\bin\Debug\proj.pdb
+C:\Users\bindus\Desktop\proj\proj\obj\Debug\RailwayReservationSystem.csproj.AssemblyReference.cache
+C:\Users\bindus\Desktop\proj\proj\obj\Debug\RailwayReservationSystem.csproj.CoreCompileInputs.cache
+C:\Users\bindus\Desktop\proj\proj\obj\Debug\proj.exe
+C:\Users\bindus\Desktop\proj\proj\obj\Debug\proj.pdb
